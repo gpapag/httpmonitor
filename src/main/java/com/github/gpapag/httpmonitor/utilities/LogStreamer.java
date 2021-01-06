@@ -1,6 +1,6 @@
-package com.acompany.httpmonitor.utilities;
+package com.github.gpapag.httpmonitor.utilities;
 
-import com.acompany.httpmonitor.pojo.LogRecord;
+import com.github.gpapag.httpmonitor.pojo.LogRecord;
 import lombok.NonNull;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;

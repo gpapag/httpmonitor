@@ -1,6 +1,6 @@
-package com.acompany.httpmonitor.utilities;
+package com.github.gpapag.httpmonitor.utilities;
 
-import com.acompany.httpmonitor.pojo.LogRecord;
+import com.github.gpapag.httpmonitor.pojo.LogRecord;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

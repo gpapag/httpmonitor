@@ -1,4 +1,4 @@
-package com.acompany.httpmonitor.pojo;
+package com.github.gpapag.httpmonitor.pojo;
 
 import lombok.Getter;
 import lombok.NonNull;

@@ -1,4 +1,4 @@
-package com.acompany.httpmonitor.utilities;
+package com.github.gpapag.httpmonitor.utilities;
 
 import lombok.NonNull;
 

@@ -1,6 +1,6 @@
-package com.acompany.httpmonitor;
+package com.github.gpapag.httpmonitor;
 
-import com.acompany.httpmonitor.utilities.Configurator;
+import com.github.gpapag.httpmonitor.utilities.Configurator;
 
 import java.io.IOException;
 

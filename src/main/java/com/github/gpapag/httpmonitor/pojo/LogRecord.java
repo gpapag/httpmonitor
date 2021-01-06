@@ -1,6 +1,6 @@
-package com.acompany.httpmonitor.pojo;
+package com.github.gpapag.httpmonitor.pojo;
 
-import com.acompany.httpmonitor.utilities.HttpRequestType;
+import com.github.gpapag.httpmonitor.utilities.HttpRequestType;
 import lombok.Getter;
 import lombok.NonNull;
 

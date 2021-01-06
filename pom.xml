@@ -5,15 +5,15 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.acompany</groupId>
+    <groupId>com.github.gpapag</groupId>
     <artifactId>httpmonitor</artifactId>
     <version>0.1</version>
     <packaging>jar</packaging>
-    <name>Acompany</name>
+    <name>httpmonitor</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <main.class>com.acompany.httpmonitor.MonitorApp</main.class>
+        <main.class>com.github.gpapag.httpmonitor.MonitorApp</main.class>
 
         <ver.source>15</ver.source>
         <ver.target>15</ver.target>
@@ -150,7 +150,7 @@
                             <goal>shade</goal>
                         </goals>
                         <configuration>
-                            <minimizeJar>true</minimizeJar>
+                            <minimizeJar>false</minimizeJar>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
                             <shadedClassifierName>executable</shadedClassifierName>
                             <finalName>${project.artifactId}-${project.version}</finalName>
@@ -165,9 +165,14 @@
                                 <filter>
                                     <artifact>*:*</artifact>
                                     <excludes>
+                                        <exclude>META-INF/*.MF</exclude>
                                         <exclude>META-INF/*.SF</exclude>
                                         <exclude>META-INF/*.DSA</exclude>
                                         <exclude>META-INF/*.RSA</exclude>
+                                        <exclude>META-INF/DEPENDENCIES</exclude>
+                                        <exclude>META-INF/LICENSE</exclude>
+                                        <exclude>META-INF/NOTICE</exclude>
+                                        <exclude>META-INF/versions/9/module-info</exclude>
                                     </excludes>
                                 </filter>
                             </filters>

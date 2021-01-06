@@ -1,6 +1,6 @@
-package com.acompany.httpmonitor;
+package com.github.gpapag.httpmonitor;
 
-import com.acompany.httpmonitor.pojo.LogRecord;
+import com.github.gpapag.httpmonitor.pojo.LogRecord;
 
 import java.time.Instant;
 import java.util.ArrayDeque;

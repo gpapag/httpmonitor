@@ -1,9 +1,9 @@
-package com.acompany.httpmonitor;
+package com.github.gpapag.httpmonitor;
 
-import com.acompany.httpmonitor.pojo.LogRecord;
-import com.acompany.httpmonitor.pojo.TrafficStats;
-import com.acompany.httpmonitor.utilities.Configurator;
-import com.acompany.httpmonitor.utilities.LogStreamer;
+import com.github.gpapag.httpmonitor.pojo.LogRecord;
+import com.github.gpapag.httpmonitor.pojo.TrafficStats;
+import com.github.gpapag.httpmonitor.utilities.Configurator;
+import com.github.gpapag.httpmonitor.utilities.LogStreamer;
 import lombok.NonNull;
 
 import java.io.IOException;
